@@ -1,3 +1,3 @@
 # DEMO REPO
 
-Demo Repo to get familiarized withh Github
+Demo Repo to get familiarized withh Github.
