@@ -2,37 +2,44 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, install the following plug ins:
+Clone the repository so that there is a local version on your machine with the following command.
+
+`git clone https://github.com/acm-ucr/acm-hydra.git`
+
+Once installed, run `npm i` to install all nessecary dependencies for the project.
+
+Next, install the following plug ins.
 
 -   [Prettier](https://prettier.io/docs/en/index.html) 
 -   [ESLint](https://eslint.org/docs/latest/)
 
 When combined, these two extensions ensure that all code conforms to the style being used in other files while also making debugging and error catching easier.
 
-## Running Prettier
+## Important Commands
 
-The following is the general command used to format with Prettier.
+Use the following command to format code with Prettier.
 
-`npx prettier --write`
+`npm run write` 
 
-When ran, rearrangements to code according to the format preferences that Prettier has been told to use will take place.
-If entered without specifiying a file or directory, the entire project will undergo a reformation.
-Although there are no immediate issues with this, it can take a while to complete.
-Instead, if directory or specific file formatting are all that is required, the following commands can be entered to do just that.
+To check if a file has already been formatted, enter the following.
 
-For directory formatting:
+`npm run check`
 
-`npx prettier --write DirectoryEx/`
+These two commands replace `npx prettier --write` and `npx prettier --check` through the use of scripts in the `package.json` file.
+Similar shortcuts can be found for different commands besides Prettier commands in this file.
 
-For file formatting:
 
-`npx prettier --write DirectoryEx/FolderEx/File.js/`
 
-To check if a file has already been formatted, enter the following command:
+The following command runs ESLint.
 
-`npx prettier --check`
+`npm run eslint`
 
-## Running ESLint
+As with Prettier, this and all later commands are shortcuts whose original commands can be found in the `package.json` file.
+
+
+For building and exporting, use the following commands.
+
+`npm run build` and `npm run export`
 
 
 
