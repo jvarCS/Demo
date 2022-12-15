@@ -45,9 +45,7 @@ For building and exporting, use the following commands.
 
 ## Running localhost
 
-When working on the website, it is often helpful to be able to see the changes you've made as you're making them.
-This can be achieved by running localhost and creating a temporary server for the website.
-Begin by entering either of the following commands into the terminal.
+When working on the website, enter either of the following commands.
 
 ```bash
 npm run dev
@@ -62,14 +60,6 @@ When you being making changes to the file you're working on, you'll see that the
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Next Build
-
-Run the following command in the terminal to build
-
-## Static Export
-
-Because the website is hosted on UCR servers, we have to use static html files.
 
 ## Learn More
 
